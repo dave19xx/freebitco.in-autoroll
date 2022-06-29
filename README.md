@@ -1,11 +1,9 @@
-<div class="row"><div class="column"><article class="PostFull hentry" itemscope="" itemtype="http://schema.org/Blog"><span><div class="PostFull__header"><h1 class="entry-title"><!-- react-text: 212 -->freebitcoin script!! For a lot of money automatically<!-- /react-text --></h1></div><div class="PostFull__body entry-content"><div class="MarkdownViewer Markdown"><div><p><img src="https://steemitimages.com/640x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg" srcset="https://steemitimages.com/640x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg 1x, https://steemitimages.com/1280x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg 2x"></p>
-<p>Go to  <a href="https://freebitco.in" rel="nofollow noopener" target="_blank">https://freebitco.in</a></p>
+<div class="row"><div class="column"><article class="PostFull hentry" itemscope="" itemtype="http://schema.org/Blog"><span><div class="PostFull__header"><h1 class="entry-title"><!-- react-text: 212 -->Freebitco.in auto Freeroll change Captcha with Rewardpoints without solve Captcha<!-- /react-text --></h1></div><div class="PostFull__body entry-content"><div class="MarkdownViewer Markdown"><div><p><img src="https://steemitimages.com/640x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg" srcset="https://steemitimages.com/640x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg 1x, https://steemitimages.com/1280x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg 2x"></p>
+<p>Go to  <a href="https://freebitco.in/?r=41430919" rel="nofollow noopener" target="_blank">https://freebitco.in</a></p>
 <ol>
-<li><p>Go to MULTIPLY BTC</p></li>
-<li><p>Press F12</p></li>
-<li><p>Go to Console</p></li>
-<li><p>Copy and Paste the script in the console</p></li>
-<li><p>Press Enter</p></li>
+<li><p>Install the "Tampermonkey" addon for your browser and copy the source code into a new script.</p></li>
+<li><p>Join Freebitco.in with my referral code link (https://freebitco.in/?r=41430919)
+and activate Tampermonkey with the script.</p></li>
 <li><p>Enjoy</p></li>
 </ol>
 <p>var startValue = '0.00000001', // Don't lower the decimal point more than 4x of current balance<br>
