@@ -1,4 +1,6 @@
-<div class="row"><div class="column"><article class="PostFull hentry" itemscope="" itemtype="http://schema.org/Blog"><span><div class="PostFull__header"><h1 class="entry-title"><!-- react-text: 212 -->Freebitco.in auto Freeroll change Captcha with Rewardpoints without solve Captcha<!-- /react-text --></h1></div><div class="PostFull__body entry-content"><div class="MarkdownViewer Markdown"><div><p><img src="https://steemitimages.com/640x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg" srcset="https://steemitimages.com/640x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg 1x, https://steemitimages.com/1280x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg 2x"></p>
+<h1 class="entry-title"><!-- react-text: 212 -->Freebitco.in auto Freeroll change Captcha with Rewardpoints without solve Captcha<!-- /react-text --></h1>
+
+<img src="https://steemitimages.com/640x0/https://pbs.twimg.com/profile_images/771941643004051458/ScAR5Tf2.jpg"</img>
 <p>Go to  <a href="https://freebitco.in/?r=41430919" rel="nofollow noopener" target="_blank">https://freebitco.in</a></p>
 <ol>
 <li><p>Install the "Tampermonkey" addon for your browser and copy the source code into a new script.</p></li>
