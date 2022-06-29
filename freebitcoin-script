@@ -1,41 +1,43 @@
-var startValue = '0.00000001', // Don't lower the decimal point more than 4x of current balance
-stopPercentage = 0.001,
-maxWait = 777,
-stopped = false, // debugging
-stopBefore = 1; // In minutes for timer before stopping redirect on webpage
+// ==UserScript==
+// @name         Freebitco.in Auto Roll - Change Captcha with Rewardpoints without solve Captcha
+// @namespace
+// @version      0.2
+// @description  Please use my Referal-Link https://freebitco.in/?r=41430919
+// @author       https://github.com/dave19xx
+// @match        https://freebitco.in/*
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+// ==/UserScript==
 
-var $loButton = $('#double_your_btc_bet_lo_button'),
-$hiButton = $('#double_your_btc_bet_hi_button');
+(function() {
+    'use strict';
+$('#play_without_captchas_button').click() // Solve/change Captcha with Rewardpoints, disable the line with // if you dont want more
+var count_min = 1;
+$(document).ready(function(){
+    console.log("Status: Page loaded.");
 
-function multiply(){
-var current = $('#double_your_btc_stake').val();
-var multiply = (current * 2).toFixed(8);
-$('#double_your_btc_stake').val(multiply);
+    setTimeout(function(){
+        $('#free_play_form_button').click();
+        console.log("Status: Button ROLL clicked.");
+    }, random(2000,4000));
+
+    setInterval(function(){
+        console.log("Status: Elapsed time " + count_min + " minutes");
+        count_min = count_min + 1;
+    }, 60000);
+
+    setTimeout(function(){
+        $('.close-reveal-modal')[0].click();
+        console.log("Status: Button CLOSE POPUP clicked.");
+    }, random(12000,18000));
+
+    setInterval(function(){
+        $('#free_play_form_button').click();
+        console.log("Status: Button ROLL clicked again.");
+    }, random(3605000,3615000));
+});
+
+function random(min,max){
+   return min + (max - min) * Math.random();
 }
 
-function getRandomWait(){
-var wait = Math.floor(Math.random() * maxWait ) + 100;
-
-console.log('Waiting for ' + wait + 'ms before next bet.');
-
-return wait ;
-}
-
-function startGame(){
-console.log('Game started!');
-reset();
-$loButton.trigger('click');
-}
-
-function stopGame(){
-console.log('Game will stop soon! Let me finish.');
-stopped = true;
-}
-
-function reset(){
-$('#double_your_btc_stake').val(startValue);
-}
-
-// quick and dirty hack if you have very little bitcoins like 0.00000001
-function deexponentize(number){
-return number * 10000000;
+})();
